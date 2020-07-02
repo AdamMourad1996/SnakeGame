@@ -1,0 +1,12 @@
+************************************************************ 
+******************Top Scores in the Snake game************** 
+************************************************************ 
+
+Here is the lsit of the top scores :- 
+1 Mark 11 Intermediate
+2 Jeff 10 Easy
+3 Mona 10 Easy
+4 zoomba 6 Easy
+5 Adam 5 Easy
+6 Lilaa 5 Easy
+7 Omar 4 Easy
