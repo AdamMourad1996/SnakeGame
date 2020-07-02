@@ -4,49 +4,55 @@ This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree P
 
 <img src="snake_game.gif"/>
 
+## Introduction
+
 I have chosen the Snake Game project as part of my Capstone Project
 
 I have created many different features in this project :-
-1. I added small user interface where te user can select 3 option when game starts
-    1. Play a new Game: when the user enter new the game . The user must enter his/her name and select the difficulty of the game.(note the difficulity is based on the  starting  speed pf the snake).
-    2. View the Score Board : When the user select the view score board, this history of the game is printed out in the terminal stating out all the player played the game and they are sorted based on the score for each one.
+1. I added small user interface where the user can select 3 options when the game starts
+    1. Play a new Game: when the user enters the new game . The user must enter his/her name and select the difficulty of the game. (note the difficulity is based on the  starting speed of the snake).
+    2. View the Score Board : When the user selects the view score board, the history of the game is printed out in the terminal and stating out all the player who played the game and they are sorted based on the score for each one.
     3. Exist the game : is simply terminating the code. 
-2. I added an option to pause the game while playing by simply press the p key on the keyboard
-3. To resume the game user should press the r key on the keyboard 
+2. I added an option to pause the game while playing by simply press the [p] key on the keyboard
+3. To resume the game user should press the [r] key on the keyboard 
 
 ## Added Files
+
 I added two classes which are the Player class (Player.h and Player.cpp) and the ScoreBoard Class (ScoreBoard.h and Scoreboard.cpp)
-1. The Player class is responsible to encapsulate some data from the user and these data will be passed and used in rest of the program
+1. The Player class is responsible to encapsulate data from the user and these data will be passed and used in rest of the program
 2. The ScoreBoard class is responsible to read, write, and update from file called ScoreBoard.txt file which contains the hsitory borad and sort the data inside the file based on the highest score 
 
-##Rubic Points
+## Rubic Points
 
-I have tried my best to add as many point as I can and I ended up adding these points :-
+I have tried my best to add as many points as I can and I ended up adding these points :-
 
 Loop, Function, I/O
-    1. The project demonstrates an understanding of C++ functions and control structures.
-    2. The project reads data from a file and process the data, or the program writes data to a file.
-    3. The project accepts user input and processes the input.
+  1. The project demonstrates an understanding of C++ functions and control structures.
+  2. The project reads data from a file and process the data, or the program writes data to a file.
+  3. The project accepts user input and processes the input.
 
 Object Oriented Programming
-    1. The project uses Object Oriented Programming techniques.
-    2. Classes use appropriate access specifiers for class members.
-    3. Class constructors utilize member initialization lists.
-    4. Classes abstract implementation details from their interfaces.
-    5. Classes encapsulate behavior.
+
+  1. The project uses Object Oriented Programming techniques.
+  2. Classes use appropriate access specifiers for class members.
+  3. Class constructors utilize member initialization lists.
+  4. Classes abstract implementation details from their interfaces.
+  5. Classes encapsulate behavior.
 
 Memory Management
-    1. The project makes use of references in function declarations.
-    2. The project uses move semantics to move data, instead of copying it, where possible. (In the main function in Inserting in player function line 108)
-    3. The project uses smart pointers instead of raw pointers.
+
+  1. The project makes use of references in function declarations.
+  2. The project uses move semantics to move data, instead of copying it, where possible. (In the main function in Inserting in player function line 108)
+  3. The project uses smart pointers instead of raw pointers.
 
 
 Files that I have coded inside are 
-    1. main.cpp
-    2. game.cpp & game.h
-    3. Player.cpp & Player.h
-    4. ScoreBoard.cpp & ScoreBoard.h
-    5. controller.cpp & controller.h
+
+  1. main.cpp
+  2. game.cpp & game.h
+  3. Player.cpp & Player.h
+  4. ScoreBoard.cpp & ScoreBoard.h
+  5. controller.cpp & controller.h
 
 
 
